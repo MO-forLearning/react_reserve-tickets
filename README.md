@@ -1,9 +1,9 @@
 ## 概要
 
- Reactを用いたイベントチケットの予約サイト<br >
- React学習用のため、デザインは最小限にしています。<br >
- 制作：約100時間<br >
- 参考サイト：https://t.livepocket.jp/e/wyxxw
+- Reactを用いたイベントチケットの予約サイトです
+  - React学習用のため、デザイン等は最小限にしています
+- 制作：約100時間
+- 参考サイト：https://t.livepocket.jp/e/wyxxw
 
 
 ## 環境
