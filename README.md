@@ -29,6 +29,38 @@
   - 購入済チケット一覧表示
 
 
+
+## スクリーンショット
+
+- トップ画面
+
+![トップ画面](images/top.png)
+
+- ログイン画面
+
+![ログイン画面](images/login.png)
+
+- ユーザ登録画面
+
+![ユーザ登録画面](images/signup.png)
+
+- バリデーション
+
+![バリデーション](images/validation.png)
+
+- チケット購入画面（残数オーバー）
+
+![チケット購入画面（残数オーバー）](images/over.png)
+
+- 購入確認画面
+
+![購入確認画面](images/confirm.png)
+
+- 購入チケット一覧
+
+![購入チケット一覧](images/purchaced.png)
+
+
 ## ディレクトリ構成
 <pre>
 .
