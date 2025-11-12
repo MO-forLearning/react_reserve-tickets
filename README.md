@@ -1,21 +1,17 @@
 ## 概要
 
-- Reactを用いたイベントチケットの予約サイトです
-  - React学習用のため、デザイン等は最小限にしています
-- 制作：約100時間
-- 参考サイト：https://t.livepocket.jp/e/wyxxw
+Reactを用いたイベントチケットの予約サイトです
+  - 参考サイト：https://t.livepocket.jp/e/wyxxw
 
 
 ## 環境
 
 | 言語・フレームワーク  | バージョン |
 | --------------------- | ---------- |
-| MySQL2                 | 3.3.1        |
-| axios                 | 1.7.3        |
-| Express                 | 4.18.2        |
-| Node.js               | 18.17.0    |
 | React                 | 18.3.1     |
 | React Router Dom                 | 6.25.1     |
+| Express                 | 4.18.2        |
+| axios                 | 1.7.3        |
 | npm             |  9.6.7      |
 
 
@@ -35,34 +31,41 @@
 - トップ画面
 
 ![トップ画面](images/top.png)
+|-------------------------------|
 
 - ログイン画面
 
 ![ログイン画面](images/login.png)
+|-------------------------------|
 
 - ユーザ登録画面
 
 ![ユーザ登録画面](images/signup.png)
+|-------------------------------|
 
 - バリデーション
 
 ![バリデーション](images/validation.png)
+|-------------------------------|
 
 - チケット購入画面（残数オーバー）
 
 ![チケット購入画面（残数オーバー）](images/over.png)
+|-------------------------------|
 
 - 購入確認画面
 
 ![購入確認画面](images/confirm.png)
+|-------------------------------|
 
 - 購入チケット一覧
 
 ![購入チケット一覧](images/purchaced.png)
+|-------------------------------|
 
 
 ## ディレクトリ構成
-<pre>
+```
 .
 ├── .gitignore
 ├── README.md
@@ -86,22 +89,21 @@
     ├── index.js
     ├── package-lock.json
     └── package.json
-</pre>
+```
 
 
 ## 開発環境構築
 
 ### 起動
-
-ターミナルで二画面表示し、以下コマンドを実行
-
-①一画面目<br >
-cd server/<br >
+```
+# サーバー側
+cd server/
 npm run start
 
-②二画面目<br >
-cd client/<br >
+# クライアント側
+cd client/
 npm run start
+```
 
 
 ## データベース設計
@@ -124,7 +126,7 @@ npm run start
 | cost               | integer    | null: false                    |
 | placeId            | integer    | null: false                    |
 | numberOf           | integer    | null: false                    |
-| purchased          | integer    | null: false, default: "0"      |
+| purchased          | integer    | null: false, default: 0        |
 
 ### purchasesテーブル
 | Column             | Type       | Options                        |
